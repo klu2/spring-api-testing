@@ -24,6 +24,6 @@ class MockMvcTest(
             .andExpect(jsonPath("$.message").value("Hello World"))
             .andReturn()
 
-        assertEquals(MediaType.APPLICATION_JSON_VALUE, result.response.contentType);
+        assertEquals(MediaType.APPLICATION_JSON_VALUE, result.response.contentType)
     }
 }

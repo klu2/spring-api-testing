@@ -34,5 +34,4 @@ class RestAssuredTest(
         assertThat(given().get("/hello-world").`as`(Message::class.java).message)
             .isEqualTo("Hello World")
     }
-
 }

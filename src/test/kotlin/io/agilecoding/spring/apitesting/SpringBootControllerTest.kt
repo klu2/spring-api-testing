@@ -11,8 +11,7 @@ class SpringBootControllerTest(
 ) {
 
     @Test
-    fun hwlloWorld() {
+    fun helloWorld() {
         assertEquals("Hello World", controller.helloWorld().message)
     }
-
 }
